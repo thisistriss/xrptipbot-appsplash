@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/images/icon.png">
+
+    <title>XRP Tipbot - Send and receive tips in real life!</title>
+
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+    <!--<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-light" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="assets/images/logo.png" alt="" class="logoicon">
+          <span class="tagline"><i class="fa fa-paper-plane"></i> Send up to 20 XRP!</span>
+        </a>
+
+        <!--
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav" aria-controls="mainnav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainnav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#item1">Item 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#item2">Item 2</a>
+            </li> 
+          </ul>
+        </div>
+        -->
+      </div>
+    </nav>
+
+    <main role="main">
+      
+      <img src="assets/images/app-preview.png" alt="" class="headerimg">
+
+      <div class="jumbotron" id="header">
+        
+        <!-- Mobile-->
+        <div class="container d-sm-none header">
+          <h1>
+            <b>1</b>Open this page on your desktop &amp; login <br>
+            <a href="https://www.xrptipbot.com/app"><small><i class="fa fa-external-link-square-alt"></i> www.xrptipbot.com/app</small></a>
+          </h1>
+          <!--<h1>
+            <b>2</b>Visit the app activation page<br>
+          </h1>-->
+          <h1 class="download">
+            <b>2</b>Get the app &amp; scan the activation QR <br>
+            <a href="https://itunes.apple.com/us/app/xrp-tip-bot/id1437630682?ls=1&mt=8" target="_blank"><img src="assets/images/download-appstore.png" alt=""></a>
+            <a href="https://play.google.com/store/apps/details?id=com.xrptipbot" target="_blank"><img src="assets/images/download-playstore.png" alt=""></a>
+            <small class="version">Version: 1.0</small>
+          </h1>
+          <h1><b>3</b>Send and receive tips in real life! 🎉</h1>
+        </div>
+        
+        <!-- Desktop-->
+        <div class="container d-none d-sm-block header">
+          <h1 class="download">
+            <b>1</b>Get the app &amp; scan the activation QR <br>
+            <a href="https://itunes.apple.com/us/app/xrp-tip-bot/id1437630682?ls=1&mt=8" target="_blank"><img src="assets/images/download-appstore.png" alt=""></a>
+            <a href="https://play.google.com/store/apps/details?id=com.xrptipbot" target="_blank"><img src="assets/images/download-playstore.png" alt=""></a>
+            <small class="version">Version: 1.0</small>
+          </h1>
+          <h1 class="scan">
+            <b>2</b> 
+            Scan this QR code <br>
+            <div class="userbadge">
+              <img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chld=M|0&chl=2fcb84b454574525bd17691bbc48b1562240f7b6055d842&choe=UTF-8" alt="">
+              <span class="loginmessage">
+                Logged in at xrptipbot as: <br>
+                <span class="badge badge-primary">@thisistriss</span>
+                <br>
+                <small>To change user or logout go to the xrptipbot website.</small>
+              </span>
+            </div>
+          </h1>
+          <h1><b>3</b>Send and receive tips in real life! 🎉</h1>
+        </div>
+      </div>
+
+
+      <div class="container charity">
+        <div class="row">
+          <div class="col-12">
+            <h2>❤️ Want to test it and support a ️️charity?</h2>
+            <br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-md-3 charblock">
+            <div class="inner">
+              <h4>
+                <i class="fab fa-twitter"></i> StJude<br>
+                <!--<small><a target="_blank" href="https://twitter.com/StJude"><i class="fa fa-external-link-square-alt"></i> View twitter profile</a></small>-->
+              </h4>
+              <div class="qrblock">
+                <img src="assets/images/qrpreview.png" alt="" class="qrpreview">
+                <img src="https://pbs.twimg.com/profile_images/1001468807624445952/n2ehvBL1_400x400.jpg" alt="" class="twitteruserimg">
+              </div>
+              <div class="qrblockreal">
+                <img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chld=M|0&chl=xrptipbot%3A%2F%2Ftwitter%StJude&choe=UTF-8" alt="" class="realqr">
+              </div>
+              <button class="btn btn-dark btn-block" onClick="toggleQR(event)">Show <i class="fa fa-qrcode fa-fw"></i></button>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 charblock">
+            <div class="inner">
+              <h4>
+                <i class="fab fa-twitter"></i> raisingmalawi<br>
+                <!--<small><a target="_blank" href="https://twitter.com/raisingmalawi"><i class="fa fa-external-link-square-alt"></i> View twitter profile</a></small>-->
+              </h4>
+              <div class="qrblock">
+                <img src="assets/images/qrpreview.png" alt="" class="qrpreview">
+                <img src="https://pbs.twimg.com/profile_images/410071251/header-logo_400x400.png" alt="" class="twitteruserimg">
+              </div>
+              <div class="qrblockreal">
+                <img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chld=M|0&chl=xrptipbot%3A%2F%2Ftwitter%raisingmalawi&choe=UTF-8" alt="" class="realqr">
+              </div>
+              <button class="btn btn-dark btn-block" onClick="toggleQR(event)">Show <i class="fa fa-qrcode fa-fw"></i></button>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 charblock">
+            <div class="inner">
+              <h4>
+                <i class="fab fa-twitter"></i> bigbuckor<br>
+                <!--<small><a target="_blank" href="https://twitter.com/bigbuckor"><i class="fa fa-external-link-square-alt"></i> View twitter profile</a></small>-->
+              </h4>
+              <div class="qrblock">
+                <img src="assets/images/qrpreview.png" alt="" class="qrpreview">
+                <img src="https://pbs.twimg.com/profile_images/1028006507634466816/ExgZdvKk_400x400.jpg" alt="" class="twitteruserimg">
+              </div>
+              <div class="qrblockreal">
+                <img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chld=M|0&chl=xrptipbot%3A%2F%2Ftwitter%bigbuckor&choe=UTF-8" alt="" class="realqr">
+              </div>
+              <button class="btn btn-dark btn-block" onClick="toggleQR(event)">Show <i class="fa fa-qrcode fa-fw"></i></button>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 charblock active">
+            <div class="inner">
+              <h4>
+                <i class="fab fa-twitter"></i> thisistriss<br>
+                <!--<small><a target="_blank" href="https://twitter.com/thisistriss"><i class="fa fa-external-link-square-alt"></i> View twitter profile</a></small>-->
+              </h4>
+              <div class="qrblock">
+                <img src="assets/images/qrpreview.png" alt="" class="qrpreview">
+                <img src="https://pbs.twimg.com/profile_images/724512845937971200/U4jmfipd_400x400.jpg" alt="" class="twitteruserimg">
+              </div>
+              <div class="qrblockreal">
+                <img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chld=M|0&chl=xrptipbot%3A%2F%2Ftwitter%2FThisIsTRISS" alt="" class="realqr">
+              </div>
+              <button class="btn btn-dark btn-block" onClick="toggleQR(event)">Show <i class="fa fa-qrcode fa-fw"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+
+    <footer class="container-fluid" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="https://twitter.com/xrptipbot" title="Twitter" class="twitter" target="_blank"><i class="fab fa-twitter"></i> @xrptipbot</a> <span>Follow us on Twitter!</span>
+          </div>
+          <div class="col-md-6">
+            <img src="assets/images/icon.png" alt="" class="logoicon">
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    
+    <!-- Main script -->
+    <script src="assets/js/main.js"></script>
+    
+  </body>
+</html>

@@ -7556,7 +7556,11 @@ footer {
   body {
     overflow-x: hidden; }
   img.headerimg {
-    max-height: 540px; }
+    max-height: 540px;
+    position: absolute;
+    left: 72% !important;
+    top: 0px !important;
+    z-index: 100; }
   .navbar {
     height: 120px; }
     .navbar .logoicon {

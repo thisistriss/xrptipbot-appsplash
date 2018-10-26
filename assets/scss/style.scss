@@ -175,10 +175,11 @@ footer {
 @media (max-width: 991.98px) {
   img.headerimg { max-height:640px; position:absolute; left:62%; top:100px; z-index:100; }
 }
+
 @media (max-width: 767.98px) {
   body { overflow-x:hidden; }
   
-  img.headerimg { max-height:540px; }
+  img.headerimg { max-height:540px; position:absolute; left:72% !important; top:0px !important; z-index:100; }
   
   .navbar {
     height:120px; 

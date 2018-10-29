@@ -7558,8 +7558,8 @@ footer {
   img.headerimg {
     max-height: 540px;
     position: absolute;
-    left: 72% !important;
-    top: 0px !important;
+    left: 80% !important;
+    top: -20px !important;
     z-index: 100; }
   .navbar {
     height: 120px; }
@@ -7582,9 +7582,6 @@ footer {
     margin-top: 18px !important;
     text-align: center;
     font-size: 1.2rem !important; }
-  img.headerimg {
-    left: 80%;
-    top: 160px; }
   .jumbotron {
     padding-top: 60px; }
     .jumbotron h1 {

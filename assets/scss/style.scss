@@ -63,7 +63,7 @@ p.subtitle { margin-bottom:40px; }
 
 ////////////////////////////
 // Header afbeelding
-img.headerimg { max-height:640px; position:absolute; left:58%; top:100px; z-index:100; }
+img.headerimg { max-height:540px; position:absolute; left:58%; top:20px; z-index:100; }
 
 ////////////////////////////
 // Header
@@ -193,9 +193,6 @@ footer {
     font-size:1.2rem !important;
   }  
 
-  img.headerimg {
-    
-  }
   .jumbotron {
     padding-top:60px;
     h1 { font-size:1.1rem !important; line-height:1.5rem !important; margin-bottom:20px !important; max-width:80% !important; display:block; clear:both; }

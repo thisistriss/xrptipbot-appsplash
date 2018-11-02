@@ -7381,10 +7381,10 @@ p.subtitle {
       margin-right: 6px; }
 
 img.headerimg {
-  max-height: 640px;
+  max-height: 540px;
   position: absolute;
   left: 58%;
-  top: 100px;
+  top: 20px;
   z-index: 100; }
 
 .jumbotron {
